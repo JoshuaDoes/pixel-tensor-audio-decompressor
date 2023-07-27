@@ -1,0 +1,2 @@
+# Exclude local Magisk module builds from the repo
+*.zip
