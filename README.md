@@ -3,11 +3,11 @@
 Made and tested by JoshuaDoes on a Pixel 6 Pro.
 
 # Supported devices
-* Pixel 6 (oriole)
 * Pixel 6 Pro (raven)
+* Pixel 6 (oriole)
 * Pixel 6a (bluejay)
-* Pixel 7 (panther)
 * Pixel 7 Pro (cheetah)
+* Pixel 7 (panther)
 * Pixel 7a (lynx)
 
 ## Changelog
