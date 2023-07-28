@@ -40,8 +40,9 @@ on_install() {
     abort "* "$DEVICE" is not supported!"
   fi
 
-  if [ $DEVICE == "felix" ] || [ $DEVICE == "tangorpro" ]; then
+  if [ $DEVICE = "felix" ] || [ $DEVICE = "tangorpro" ]; then
     ui_print "* WARNING: "$DEVICE" is experimental!"
+  fi
 
   if [ $RELEASE != "13" ] && [ $RELEASE != "14" ]; then
     abort "* Android "$RELEASE" is not supported!"
