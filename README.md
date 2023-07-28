@@ -64,7 +64,10 @@ Source code: [GitHub repository for Pixel Tensor Audio Decompressor](https://git
 
 ## Support and Feedback
 
-XDA:
+- [XDA](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610051/)
+
+Old XDA threads that are currently closed by a moderator:
+
 - [Pixel 6](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610053/)
 - [Pixel 6 Pro](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610051/)
 - [Pixel 6a](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610055/)
