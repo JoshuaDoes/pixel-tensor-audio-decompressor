@@ -39,17 +39,14 @@ I set the amplifier gain to a value of 0 when trying to determine the best PCM v
 
 ## What devices are supported by this module?
 
-For the time being, you must be running Android 13, regardless of running stock ROM or custom ROMs. I will expand support to allow installation on outdated Android 12/12L and future Android 14 ROMs after some further testing.
+You must be running Android 13 or Android 14, regardless of whether or not you have installed a custom ROM. Future Android versions will require testing before allowing the installation to continue.
 
-- Pixel 6     (oriole)
-- Pixel 6 Pro (raven)
-- Pixel 6a    (bluejay)
-- Pixel 7     (panther)
-- Pixel 7 Pro (cheetah)
-- Pixel 7a    (lynx)
-
-### The following devices are in testing, but supported:
-
+- Pixel 6      (oriole)
+- Pixel 6 Pro  (raven)
+- Pixel 6a     (bluejay)
+- Pixel 7      (panther)
+- Pixel 7 Pro  (cheetah)
+- Pixel 7a     (lynx)
 - Pixel Fold   (felix)
 - Pixel Tablet (tangorpro)
 
