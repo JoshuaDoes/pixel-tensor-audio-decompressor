@@ -63,7 +63,7 @@ Release downloads: [GitHub releases for Pixel Tensor Audio Decompressor](https:/
 
 Source code: [GitHub repository for Pixel Tensor Audio Decompressor](https://github.com/JoshuaDoes/pixel-tensor-audio-decompressor)
 
-**NOTE:** This module is upgradable through Magisk's module list! If you see an update available, it is HIGHLY recommended to install it ASAP. It may be a minor bug, or it may be something huge that I have overlooked. I want your phone to be as safe as possible when using your speakers.
+**NOTE:** This module is upgradeable through Magisk's module list! If you see an update available, it is HIGHLY recommended to install it ASAP. It may be a minor bug, or it may be something huge that I have overlooked. I want your phone to be as safe as possible when using your speakers.
 
 ## Support and Feedback
 
