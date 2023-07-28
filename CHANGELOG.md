@@ -1,3 +1,6 @@
+### v1.1.2 (Magisk is silly)
+- Hotfix to remove the `skip_mount` file after the install process... lol
+
 ### v1.1.1 (oops)
 - Hotfix update to fix the install script, sorry!
 

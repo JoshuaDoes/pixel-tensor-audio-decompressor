@@ -1,3 +1,5 @@
+SKIPMOUNT=false
+
 print_modname() {
   ui_print ""
   ui_print "***********************************"
