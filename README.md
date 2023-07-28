@@ -77,7 +77,7 @@ Old XDA threads that are currently closed by a moderator:
 - [Pixel Fold](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610205/)
 - [Pixel Tablet](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610201/)
 
-Discord: @JoshuaDoes
+Discord: @joshuadoes
 
 Telegram: [JoshuaDoes](https://t.me/JoshuaDoes)
 
