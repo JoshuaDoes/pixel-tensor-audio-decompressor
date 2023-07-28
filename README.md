@@ -1,6 +1,6 @@
 ## WARNINGS!
 
-### It goes without saying, your decision to use this module comes with risks. For example, playing at high volumes can lead to increased heat production, and may be unfavorable in environmental conditions most affected by our continuously heating climate. You lost your warranty the moment you chose to root your phone, and I am not to be held responsible if this module causes speaker failure, battery drain, or worse. I have been successfully using my chosen values of 865/13 for weeks now without any issues, and adapted to the speaker protection using 913/15 for months prior to seeking out balanced values. My speakers are still fine, yours should be fine too.
+### It goes without saying, your decision to use this module comes with risks. For example, playing at high volumes can lead to increased heat production, and may be unfavorable in environmental conditions most affected by our continuously heating climate. You lost your warranty the moment you chose to root your phone, and I am not to be held responsible if this module causes speaker failure, battery drain, or worse. I have been successfully using my chosen values of 865/14 for weeks now without any issues, and adapted to the speaker protection using 913/15 for months prior to seeking out balanced values. My speakers are still fine, yours should be fine too.
 
 ### If you wish to use this module, please provide feedback! It will be most helpful if you can provide as many details as possible, such as the differences you notice between the stock values and my new values (just toggle the module!), the environmental conditions you are in, if you are noticing increased heating compared to before, etc. The goal is to make sure these are truly the best values, and once confirmed, to submit these new values to as many custom ROMs as possible for their new default values.
 
@@ -16,6 +16,10 @@
 
 ## Changelog
 
+### v1.1.0 (we can do better)
+- Raised the amplifier PCM gain from 13 to 14. Slightly increases the perceived volume, making the bass a little fuller.
+- Modified the sed function of the install script to work regardless of current values.
+
 ### v1.0.0 (initial release)
 - Raised digital PCM volume from stock value of 817 to 865.
 - Lowered amplifier PCM gain from stock value of 17 to 13.
@@ -27,7 +31,7 @@
 
 This module will patch and systemlessly replace your mixer_paths.xml to make the following changes:
 - Raise the digital PCM volume from the stock value of 817 to 865.
-- Lower the hardware amplifier gain from the stock value of 17 to 13.
+- Lower the hardware amplifier gain from the stock value of 17 to 14.
 - Set the boost peak current limit to the stock value of 3.50A. Some custom ROMs opt to lower it to reduce the heat output, at the expense of your phone's volume potential.
 
 ## What do these values even mean?
@@ -40,11 +44,11 @@ I've been trialing various increased values for months now using my Pixel 6 Pro,
 
 ## How does this affect the audio quality?
 
-The final result with selecting 865/13 is that we have minimized the compression of the PCM audio being sent to our speakers, allowing a wider range of detail. The noise floor has been lowered and the noise ceiling has been raised. You should be able to audibly comprehend better instrument separation, more depth to the notes being played in each instrument (including vocals, or voices and environmental sounds in videos), clarity across the audio spectrum, and a more pronounced bass. And due to the nature of raising the software volume, everything sounds just a little louder than before. This is before even considering something like tuning your EQ settings with an app like Wavelet, which should finally give you some more control over the sound of your audio due to the perceivable lack of detail compression.
+The final result with selecting 865/14 is that we have minimized the compression of the PCM audio being sent to our speakers, allowing a wider range of detail. The noise floor has been lowered and the noise ceiling has been raised. You should be able to audibly comprehend better instrument separation, more depth to the notes being played in each instrument (including vocals, or voices and environmental sounds in videos), clarity across the audio spectrum, and a more pronounced bass. And due to the nature of raising the software volume, everything sounds just a little louder than before. This is before even considering something like tuning your EQ settings with an app like Wavelet, which should finally give you some more control over the sound of your audio due to the perceivable lack of detail compression.
 
 ## How did you determine these values?
 
-I set the amplifier gain to a value of 0 when trying to determine the best PCM volume, starting at 900 because of the volume normalization at 913. I then tried to keep raising the amplifier gain by 1, doing my best to reach the loudness I perceived with the stock values. Every time I triggered the volume normalization, I would reset the amplifier gain back to 0 and then subtract 5 from the PCM volume, only to try raising the amplifier volume again. 865 turned out to be the first value I could use that wouldn't trigger it, but using any amplifier gain above 13 (including the stock 17) would introduce the aforementioned clipping issue. It didn't matter though, as 13 still allows the new PCM volume to exceed the loudness that we had before, without triggering safety features.
+I set the amplifier gain to a value of 0 when trying to determine the best PCM volume, starting at 900 because of the volume normalization at 913. I then tried to keep raising the amplifier gain by 1, doing my best to reach the loudness I perceived with the stock values. Every time I triggered the volume normalization, I would reset the amplifier gain back to 0 and then subtract 5 from the PCM volume, only to try raising the amplifier volume again. 865 turned out to be the first value I could use that wouldn't trigger it, but using any amplifier gain above 14 (including the stock 17) would introduce the aforementioned clipping issue. It didn't matter though, as 14 still allows the new PCM volume to exceed the loudness that we had before, without triggering safety features.
 
 ## What devices are supported by this module?
 

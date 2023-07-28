@@ -1,7 +1,7 @@
 id=pixel-tensor-audio-decompressor
 name=Pixel Tensor Audio Decompressor
-version=v1.0.0
-versionCode=100
+version=v1.1.0
+versionCode=110
 author=JoshuaDoes
 description=Patches mixer_paths.xml on Pixel Tensor devices to decompress the digital PCM volume.
 updateJson=https://raw.githubusercontent.com/JoshuaDoes/pixel-tensor-audio-decompressor/dev/update.json
