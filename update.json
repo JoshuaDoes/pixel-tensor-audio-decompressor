@@ -2,5 +2,5 @@
 	"version": "v1.1.0",
 	"versionCode": 110,
 	"zipUrl": "https://github.com/JoshuaDoes/pixel-tensor-audio-decompressor/releases/download/110/pixel-tensor-audio-decompressor-v1.1.0.zip",
-	"changelog": "https://raw.githubusercontent.com/JoshuaDoes/pixel-tensor-audio-decompressor/dev/README.md"
+	"changelog": "https://raw.githubusercontent.com/JoshuaDoes/pixel-tensor-audio-decompressor/dev/CHANGELOG.md"
 }
