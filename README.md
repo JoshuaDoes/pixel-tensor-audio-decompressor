@@ -71,8 +71,8 @@ XDA:
 - [Pixel 7](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610069/)
 - [Pixel 7 Pro](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610059/)
 - [Pixel 7a](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610071/)
-- No thread for Pixel Fold yet
-- No thread for Pixel Tablet yet
+- [Pixel Fold](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610205/)
+- [Pixel Tablet](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610201/)
 
 Discord: @JoshuaDoes
 
