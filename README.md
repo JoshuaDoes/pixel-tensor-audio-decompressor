@@ -48,6 +48,11 @@ For the time being, you must be running Android 13, regardless of running stock 
 - Pixel 7 Pro (cheetah)
 - Pixel 7a    (lynx)
 
+### The following devices are in testing, but supported:
+
+- Pixel Fold   (felix)
+- Pixel Tablet (tangorpro)
+
 ## Downloads
 
 Release downloads: [GitHub releases for Pixel Tensor Audio Decompressor](https://github.com/JoshuaDoes/pixel-tensor-audio-decompressor/releases)
@@ -65,6 +70,8 @@ XDA:
 - [Pixel 7](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610069/)
 - [Pixel 7 Pro](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610059/)
 - [Pixel 7a](https://forum.xda-developers.com/t/mod-pixel-tensor-audio-decompressor.4610071/)
+- No thread for Pixel Fold yet
+- No thread for Pixel Tablet yet
 
 Discord: @JoshuaDoes
 

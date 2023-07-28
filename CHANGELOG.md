@@ -1,3 +1,6 @@
+### v1.2.0 (tangorfelix)
+- Add experimental support for the Pixel Fold (felix) and the Pixel Tablet (tangorpro)
+
 ### v1.1.2 (Magisk is silly)
 - Hotfix to remove the `skip_mount` file after the install process... lol
 
