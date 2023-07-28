@@ -39,7 +39,7 @@ on_install() {
   ui_print "- Copying mixer paths to a temporary location"
   cp "/vendor/etc/mixer_paths.xml" "$TMPDIR/mixer_paths.xml"
   ui_print "- Patching mixer paths using sed"
-  sed -r 's/"AMP PCM Gain" value="[[:digit:]]\+"/"AMP PCM Gain" value="14"/g; s/"Digital PCM Volume" value="[[:digit:]]\+"/"Digital PCM Volume" value="865"/g; s/"Boost Peak Current Limit" value="(.*)A"/"Boost Peak Current Limit" value="3.50A"/g' "$TMPDIR/mixer_paths.xml" > "$TMPDIR/mixer_paths2.xml"
+  sed -r 's/AMP PCM Gain" value="(.*)"/AMP PCM Gain" value="14"/g; s/Digital PCM Volume" value="(.*)"/Digital PCM Volume" value="865"/g; s/Boost Peak Current Limit" value="(.*)A"/Boost Peak Current Limit" value="3.50A"/g' "$TMPDIR/mixer_paths.xml" > "$TMPDIR/mixer_paths2.xml"
   ui_print "- Installing patched mixer paths systemfully into module path"
   mkdir -p "$MODPATH/system/vendor/etc"
   mv "$TMPDIR/mixer_paths2.xml" "$MODPATH/system/vendor/etc/mixer_paths.xml"

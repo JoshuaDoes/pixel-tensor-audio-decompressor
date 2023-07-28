@@ -1,3 +1,6 @@
+### v1.1.1 (oops)
+- Hotfix update to fix the install script, sorry!
+
 ### v1.1.0 (we can do better)
 - Raised the amplifier PCM gain from 13 to 14. Slightly increases the perceived volume, making the bass a little fuller.
 - Modified the sed function of the install script to work regardless of current values.
