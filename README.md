@@ -50,6 +50,10 @@ You must be running Android 13 or Android 14, regardless of whether or not you h
 - Pixel Fold   (felix)
 - Pixel Tablet (tangorpro)
 
+## How do I test the differences?
+
+That's the easy part! Go listen to your favorite music, watch your favorite YouTubers, play your favorite games, and listen to all the sounds of the crispy videos you've recorded. The only clear way to test this module is to listen to the things you're already used to listening to using your phone's speakers. If you want to do comparisons, toggle the module in your Magisk modules list and reboot.
+
 ## Downloads
 
 Release downloads: [GitHub releases for Pixel Tensor Audio Decompressor](https://github.com/JoshuaDoes/pixel-tensor-audio-decompressor/releases)
