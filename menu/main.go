@@ -57,15 +57,6 @@ func init() {
 		vLines = 100
 	}
 
-	keyCalibrationJSON, err := ioutil.ReadFile(keyCalibrationFile)
-	if err == nil {
-		keyCalibration = make(map[string][]*MenuKeycodeBinding)
-		err = json.Unmarshal(keyCalibrationJSON, &keyCalibration)
-		if err != nil {
-			panic(fmt.Sprintf("error parsing key calibration file: %v", err))
-		}
-	}
-
 	configJSON, err := ioutil.ReadFile(configFile)
 	if err != nil {
 		panic(fmt.Sprintf("error reading config file: %v", err))

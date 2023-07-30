@@ -4,7 +4,7 @@
     "menus": {
         "home": {
             "noGoBack": true,
-            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.0.3      ",
+            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.0.4      ",
             "subtitle": "\tIf you calibrated wrongly,\n\tclose Magisk and try again.",
             "items": [
                 {

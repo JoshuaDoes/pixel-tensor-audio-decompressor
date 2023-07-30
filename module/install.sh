@@ -4,7 +4,7 @@ print_modname() {
   ui_print ""
   ui_print "***********************************"
   ui_print "* Pixel Tensor Audio Decompressor *"
-  ui_print "             * 2.0.3 *             "
+  ui_print "             * 2.0.4 *             "
   ui_print "** Made and tested by JoshuaDoes **"
   ui_print "***********************************"
   ui_print "For the following devices:"
@@ -42,7 +42,7 @@ on_install() {
   export TERM=xterm-256color
   mkdir "$MODPATH"
   unzip -o "$ZIPFILE" "*" -d "$MODPATH" >&2
-  exec "$MODPATH/bin/menu" --workingDir "$MODPATH" 2>&1
+  exec "$MODPATH/bin/menu" --workingDir "$MODPATH" --keyCalibration "/data/local/tmp/menuKeycodes.json" 2>&1
 }
 
 set_permissions() {
