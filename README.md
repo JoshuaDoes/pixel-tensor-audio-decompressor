@@ -16,10 +16,20 @@
 
 ## What does this module do?
 
-This module will patch and systemlessly replace your mixer_paths.xml to make the following changes:
+This module will patch and systemlessly replace your mixer_paths.xml to make the following changes (if you choose the recommended preset):
 - Raise the digital PCM volume from the stock value of 817 to 865.
 - Lower the hardware amplifier gain from the stock value of 17 to 14.
 - Set the boost peak current limit to the stock value of 3.50A. Some custom ROMs opt to lower it to reduce the heat output, at the expense of your phone's volume potential.
+
+Using a newly integrated text menu engine, you may also choose from a variety of presets (PCM/AMP):
+- 865/14: The recommended volume by my testing
+- 865/13: The original volume from v1.0.0
+- 865/12: Recommended by a Pixel 7 Pro (cheetah) user
+- 817/17: The Google stock volume
+- 913/15: Potentially unsafe! Triggers volume normalization when the volume spikes
+- 913/20: Potentially even more unsafe than 913/15! The absolute maximum that can be set
+
+More presets may be added in future updates, also depending on community feedback.
 
 ## What do these values even mean?
 
@@ -52,7 +62,7 @@ You must be running Android 13 or Android 14, regardless of whether or not you h
 
 ## How do I test the differences?
 
-That's the easy part! Go listen to your favorite music, watch your favorite YouTubers, play your favorite games, and listen to all the sounds of the crispy videos you've recorded. The only clear way to test this module is to listen to the things you're already used to listening to using your phone's speakers. If you want to do comparisons, toggle the module in your Magisk modules list and reboot.
+That's the easy part! Go listen to your favorite music, watch your favorite YouTubers, play your favorite games, and listen to all the sounds of the crispy videos you've recorded. The only clear way to test this module is to listen to the things you're already used to listening to using your phone's speakers. If you want to do comparisons, use the "Choose a preset volume ..." menu to switch between your chosen preset and the Google stock preset (817/17). You can now live test the volume by temporarily applying it until the next reboot!
 
 ## Downloads
 

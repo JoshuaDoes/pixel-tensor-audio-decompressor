@@ -1,0 +1,6 @@
+github.com/JoshuaDoes/json v0.0.0-20200726213358-ec3860544ac0 h1:315Zb0n+8KwZyUiIKbDGvfrQ003c0XfHYNy0M4vv5cA=
+github.com/JoshuaDoes/json v0.0.0-20200726213358-ec3860544ac0/go.mod h1:vsCdx75bni6k6GIQPPima8KiM7ZjNHeBJ8keBaJOADA=
+github.com/MarinX/keylogger v0.0.0-20210528193429-a54d7834cc1a h1:ItKXWegGGThcahUf+ylKFa5pwqkRJofaOyeGdzwO2mM=
+github.com/MarinX/keylogger v0.0.0-20210528193429-a54d7834cc1a/go.mod h1:aKzZ7D15UvH5LboXkeLmcNi+s/f805vUfB+BfW1fqd4=
+github.com/spf13/pflag v1.0.5 h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=
+github.com/spf13/pflag v1.0.5/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=

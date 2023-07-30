@@ -1,0 +1,21 @@
+{
+	"/dev/input/event0": [
+		{
+			"keycode": 114,
+			"action": "nextItem",
+			"onRelease": true
+		},
+		{
+			"keycode": 115,
+			"action": "prevItem",
+			"onRelease": true
+		}
+	],
+	"/dev/input/event3": [
+		{
+			"keycode": 330,
+			"action": "selectItem",
+			"onRelease": true
+		}
+	]
+}

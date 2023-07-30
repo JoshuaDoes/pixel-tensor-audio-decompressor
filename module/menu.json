@@ -1,0 +1,115 @@
+{
+    "environment": {},
+    "homeMenu": "home",
+    "menus": {
+        "home": {
+            "noGoBack": true,
+            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.0.0      ",
+            "subtitle": "\tTap screen to select.\n\tUse volume keys to navigate.",
+            "items": [
+                {
+                    "text": "Cancel install",
+                    "desc": "Cancels module installation",
+                    "type": "internal",
+                    "action": "abort"
+                },
+                {
+                    "type": "divider",
+                    "action": "2"
+                },
+                {
+                    "text": "Use the recommended volume",
+                    "desc": "Applies recommended: 865/14",
+                    "type": "setvar PCM 865 AMP 14",
+                    "action": "menu choice"
+                },
+                {
+                    "text": "Choose a preset volume",
+                    "desc": "You might prefer others!",
+                    "type": "menu",
+                    "action": "install-choices"
+                }
+            ]
+        },
+        "install-choices": {
+            "title": "Choose a preset volume",
+            "subtitle": "You might prefer others!",
+            "items": [
+                {
+                    "text": "865/14",
+                    "desc": "The recommended volume",
+                    "type": "setvar PCM 865 AMP 14",
+                    "action": "menu choice"
+                },
+                {
+                    "text": "865/13",
+                    "desc": "The volume from v1.0.0",
+                    "type": "setvar PCM 865 AMP 13",
+                    "action": "menu choice"
+                },
+                {
+                    "text": "865/12",
+                    "desc": "Recommended by a cheetah user",
+                    "type": "setvar PCM 865 AMP 12",
+                    "action": "menu choice"
+                },
+                {
+                    "text": "817/17",
+                    "desc": "The Google stock volume",
+                    "type": "setvar PCM 817 AMP 17",
+                    "action": "menu choice"
+                },
+                {
+                    "text": "913/15",
+                    "desc": "Unsafe, volume normalization",
+                    "type": "setvar PCM 913 AMP 15",
+                    "action": "menu choice"
+                },
+                {
+                    "text": "913/20",
+                    "desc": "Unsafe, absolute maximum",
+                    "type": "setvar PCM 913 AMP 20",
+                    "action": "menu choice"
+                }
+            ]
+        },
+        "choice": {
+            "title": "Are you sure?",
+            "subtitle": "PCM: $PCM\nAMP: $AMP",
+            "items": [
+                {
+                    "text": "Apply until next reboot",
+                    "desc": "Also aborts the install",
+                    "type": "internal",
+                    "action": "abort testvol"
+                },
+                {
+                    "text": "Confirm and install patch",
+                    "desc": "Starts the patching process",
+                    "type": "internal",
+                    "action": "exit install"
+                }
+            ]
+        },
+        "testvol": {
+            "noGoBack": true,
+            "title": "Go test your new volume!",
+            "subtitle": "Reinstall to change or patch",
+            "items": [
+                {
+                    "text": "Applied until next reboot",
+                    "desc": "It is not permanent!",
+                    "type": "note"
+                }
+            ],
+            "exec": "/bin/sh $WD/bin/phonedac.sh $WD/bin/tinymix $PCM $AMP"
+        },
+        "install": {
+            "noGoBack": true,
+            "noSelector": true,
+            "title": "Installing your choice",
+            "subtitle": "PCM: $PCM\nAMP: $AMP",
+            "exec": "/bin/sh $WD/bin/patch.sh $WD $PCM $AMP"
+        }
+    }
+}
