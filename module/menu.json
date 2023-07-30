@@ -4,7 +4,7 @@
     "menus": {
         "home": {
             "noGoBack": true,
-            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.0.4      ",
+            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.0.5      ",
             "subtitle": "\tIf you calibrated wrongly,\n\tclose Magisk and try again.",
             "items": [
                 {
@@ -49,8 +49,14 @@
                 },
                 {
                     "text": "865/12",
-                    "desc": "Recommended by a cheetah user",
+                    "desc": "Chosen by a Pixel 7 Pro user",
                     "type": "setvar PCM 865 AMP 12",
+                    "action": "menu choice"
+                },
+                {
+                    "text": "837/15",
+                    "desc": "Chosen by HiFi Maximizer dev",
+                    "type": "setvar PCM 837 AMP 15",
                     "action": "menu choice"
                 },
                 {

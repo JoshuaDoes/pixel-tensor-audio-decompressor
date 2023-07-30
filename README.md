@@ -25,6 +25,7 @@ Using a newly integrated text menu engine, you may also choose from a variety of
 - 865/14: The recommended volume by my testing
 - 865/13: The original volume from v1.0.0
 - 865/12: Recommended by a Pixel 7 Pro (cheetah) user
+- 837/15: Recommended by the creator of HiFi Maximizer on a Pixel 7 Pro
 - 817/17: The Google stock volume
 - 913/15: Potentially unsafe! Triggers volume normalization when the volume spikes
 - 913/20: Potentially even more unsafe than 913/15! The absolute maximum that can be set
