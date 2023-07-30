@@ -4,7 +4,7 @@
     "menus": {
         "home": {
             "noGoBack": true,
-            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.0.0      ",
+            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.0.2      ",
             "subtitle": "\tTap screen to select.\n\tUse volume keys to navigate.",
             "items": [
                 {

@@ -1,5 +1,13 @@
-### v2.0.1 (it's 1:41 AM, forgot the menu binary lmfao)
-- Add the menu binary that was missing from v2.0.0
+YOU CANNOT DOWNLOAD THIS UPDATE THROUGH MAGISK'S IN-APP MODULE UPDATER.
+
+Install this release here: [Release v2.0.2](https://github.com/JoshuaDoes/pixel-tensor-audio-decompressor/releases/tag/202)
+
+### v2.0.2 (it's 2:02 AM, and Magisk is silly once again)
+- Break the ability to update the module through Magisk
+- For some reason, ZIPs downloaded through the Magisk in-app module updater will extract without executable permissions
+- We cannot have this, or the menu will cease to function
+- Until this issue can be resolved on Magisk's end, you must download all future updates from the GitHub Releases page
+- You will still be notified of future updates, but they will fail to download from now on until this issue is resolved
 
 ### v2.0.0 (menu debut)
 - Integrate my custom text menu engine! Use volume keys to navigate, and tap the screen to select a menu item

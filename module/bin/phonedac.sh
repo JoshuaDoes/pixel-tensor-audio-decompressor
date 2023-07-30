@@ -14,3 +14,6 @@ current="${4:-54}" #54, max 74
 mix 5 $pcm 35
 mix 6 $amp 35
 mix 14 $current 35
+
+# Clean up leftovers since the module now exits
+rm -rf "/data/local/tmp/ptad"

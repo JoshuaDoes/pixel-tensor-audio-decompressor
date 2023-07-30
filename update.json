@@ -1,6 +1,6 @@
 {
-	"version": "v2.0.1",
-	"versionCode": 201,
-	"zipUrl": "https://github.com/JoshuaDoes/pixel-tensor-audio-decompressor/releases/download/201/pixel-tensor-audio-decompressor-v2.0.1.zip",
+	"version": "v2.0.2",
+	"versionCode": 202,
+	"zipUrl": "https://github.com/JoshuaDoes/pixel-tensor-audio-decompressor/releases/tag/202",
 	"changelog": "https://raw.githubusercontent.com/JoshuaDoes/pixel-tensor-audio-decompressor/dev/CHANGELOG.md"
 }
