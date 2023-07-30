@@ -31,8 +31,5 @@ zip -r -0 -v "$ZIP" . > /dev/null
 popd >&2
 mv "$SRCMOD/$ZIP" "$PWD/$ZIP"
 
-echo "* Removing leftover objects"
-rm "$BINMENU"
-
 echo "* Done!"
 echo "-> $ZIP"

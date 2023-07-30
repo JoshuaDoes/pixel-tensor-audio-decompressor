@@ -1,3 +1,6 @@
+### v2.0.1 (it's 1:41 AM, forgot the menu binary lmfao)
+- Add the menu binary that was missing from v2.0.0
+
 ### v2.0.0 (menu debut)
 - Integrate my custom text menu engine! Use volume keys to navigate, and tap the screen to select a menu item
 - Support live testing of different volume presets before committing to a choice, but it will abort the install! You must reinstall to demo another preset

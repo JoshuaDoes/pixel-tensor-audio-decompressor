@@ -4,7 +4,7 @@ print_modname() {
   ui_print ""
   ui_print "***********************************"
   ui_print "* Pixel Tensor Audio Decompressor *"
-  ui_print "             * 2.0.0 *             "
+  ui_print "             * 2.0.1 *             "
   ui_print "** Made and tested by JoshuaDoes **"
   ui_print "***********************************"
   ui_print "For the following devices:"
