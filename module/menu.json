@@ -4,8 +4,8 @@
     "menus": {
         "home": {
             "noGoBack": true,
-            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.0.2      ",
-            "subtitle": "\tTap screen to select.\n\tUse volume keys to navigate.",
+            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.0.3      ",
+            "subtitle": "\tIf you calibrated wrongly,\n\tclose Magisk and try again.",
             "items": [
                 {
                     "text": "Cancel install",

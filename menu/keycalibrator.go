@@ -101,30 +101,40 @@ func calibrate() {
 			switch stage {
 			case 0:
 				clear(5)
-				fmt.Println("Welcome to the keyboard calibrator!")
+				fmt.Println("\t\tWelcome to the calibrator!\n")
+				time.Sleep(time.Second * 2)
+				fmt.Println("\t\tControllers and remotes\n\t\tare also supported.\n")
+				time.Sleep(time.Second * 2)
+				fmt.Println("\t\tThis is a guided process.\n")
 				calibrator.Ready = true
-				time.Sleep(time.Second * 1)
+				time.Sleep(time.Second * 2)
+				fmt.Println("\t\tGet ready!\n")
+				time.Sleep(time.Second * 3)
 			case 1:
 				clear(1)
 				calibrator.Action = "nextItem"
-				fmt.Println("Press any key to use to navigate down in a menu.")
+				fmt.Printf("\n")
+				fmt.Println("\t\tPress any key to use to\n\t\tnavigate down in a menu.\n")
+				fmt.Println("\t\t\tRecommended: volume down")
 				for calibrator.Action != "" {
 				}
 			case 2:
-				clear(1)
 				calibrator.Action = "prevItem"
-				fmt.Println("Press any key to use to navigate up in a menu.")
+				fmt.Printf("\n")
+				fmt.Println("\t\tPress any key to use to\n\t\tnavigate up in a menu.\n")
+				fmt.Println("\t\t\tRecommended: volume up")
 				for calibrator.Action != "" {
 				}
 			case 3:
-				clear(1)
 				calibrator.Action = "selectItem"
-				fmt.Println("Press any key to use to select a menu item.")
+				fmt.Printf("\n")
+				fmt.Println("\t\tPress any key to use to\n\t\tselect a menu item.\n")
+				fmt.Println("\t\t\tRecommended: touch screen")
 				for calibrator.Action != "" {
 				}
 			case 4:
-				clear(2)
-				fmt.Println("Saving calibration results...")
+				clear(5)
+				fmt.Println("\t\tSaving results...\n")
 				keyboards, err := json.Marshal(keyCalibration, true)
 				if err != nil {
 					panic(fmt.Sprintf("error encoding calibration results: %v", err))
@@ -139,8 +149,8 @@ func calibrate() {
 					panic(fmt.Sprintf("error writing calibration file: %v", err))
 				}
 				//fmt.Println(string(keyboards))
-				fmt.Println("Calibration complete!")
-				time.Sleep(time.Second * 1)
+				fmt.Println("\t\tCalibration complete!")
+				time.Sleep(time.Second * 2)
 				//calibrator.Ready = false
 			}
 		}
