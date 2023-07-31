@@ -4,7 +4,7 @@
     "menus": {
         "home": {
             "noGoBack": true,
-            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.0.5      ",
+            "title": "Pixel Tensor Audio Decompressor\n      JoshuaDoes | v2.1.0      ",
             "subtitle": "\tIf you calibrated wrongly,\n\tclose Magisk and try again.",
             "items": [
                 {
@@ -18,13 +18,13 @@
                     "action": "2"
                 },
                 {
-                    "text": "Use the recommended volume",
-                    "desc": "Applies recommended: 865/14",
-                    "type": "setvar PCM 865 AMP 14",
+                    "text": "Use recommended base: 837/15",
+                    "desc": "Recommended to start with",
+                    "type": "setvar PCM 837 AMP 15",
                     "action": "menu choice"
                 },
                 {
-                    "text": "Choose a preset volume",
+                    "text": "Try another preset instead",
                     "desc": "You might prefer others!",
                     "type": "menu",
                     "action": "install-choices"
@@ -36,15 +36,15 @@
             "subtitle": "You might prefer others!",
             "items": [
                 {
-                    "text": "865/14",
-                    "desc": "The recommended volume",
-                    "type": "setvar PCM 865 AMP 14",
+                    "text": "817/17",
+                    "desc": "The Google stock volume",
+                    "type": "setvar PCM 817 AMP 17",
                     "action": "menu choice"
                 },
                 {
-                    "text": "865/13",
-                    "desc": "The volume from v1.0.0",
-                    "type": "setvar PCM 865 AMP 13",
+                    "text": "837/15",
+                    "desc": "Hifi Maximizer best results",
+                    "type": "setvar PCM 865 AMP 12",
                     "action": "menu choice"
                 },
                 {
@@ -54,26 +54,26 @@
                     "action": "menu choice"
                 },
                 {
-                    "text": "837/15",
-                    "desc": "Chosen by HiFi Maximizer dev",
-                    "type": "setvar PCM 837 AMP 15",
+                    "text": "865/13",
+                    "desc": "Recommended from v1.0.0",
+                    "type": "setvar PCM 865 AMP 13",
                     "action": "menu choice"
                 },
                 {
-                    "text": "817/17",
-                    "desc": "The Google stock volume",
-                    "type": "setvar PCM 817 AMP 17",
+                    "text": "865/14",
+                    "desc": "Recommended from v2.0.5",
+                    "type": "setvar PCM 865 AMP 14",
                     "action": "menu choice"
                 },
                 {
                     "text": "913/15",
-                    "desc": "Unsafe, volume normalization",
+                    "desc": "Unsafe! Triggers protection",
                     "type": "setvar PCM 913 AMP 15",
                     "action": "menu choice"
                 },
                 {
                     "text": "913/20",
-                    "desc": "Unsafe, absolute maximum",
+                    "desc": "Unsafe! Absolute maximum",
                     "type": "setvar PCM 913 AMP 20",
                     "action": "menu choice"
                 }

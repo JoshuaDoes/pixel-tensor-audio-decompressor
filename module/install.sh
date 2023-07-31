@@ -4,7 +4,7 @@ print_modname() {
   ui_print ""
   ui_print "***********************************"
   ui_print "* Pixel Tensor Audio Decompressor *"
-  ui_print "             * 2.0.5 *             "
+  ui_print "             * 2.1.0 *             "
   ui_print "** Made and tested by JoshuaDoes **"
   ui_print "***********************************"
   ui_print "For the following devices:"
@@ -37,6 +37,14 @@ on_install() {
     abort "* Android "$RELEASE" needs testing!"
   fi
 
+  ui_print "If you don't see the menu,"
+  ui_print "close Magisk and try again."
+  ui_print ""
+  ui_print "The official Magisk app will"
+  ui_print "provide the best experience."
+  ui_print ""
+  ui_print "AMM also handles the menu well."
+  ui_print "KernelSU does not like it. :c"
   sleep 1
 
   export TERM=xterm-256color

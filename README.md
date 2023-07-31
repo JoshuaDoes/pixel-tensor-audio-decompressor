@@ -17,18 +17,18 @@
 ## What does this module do?
 
 This module will patch and systemlessly replace your mixer_paths.xml to make the following changes (if you choose the recommended preset):
-- Raise the digital PCM volume from the stock value of 817 to 865.
-- Lower the hardware amplifier gain from the stock value of 17 to 14.
+- Raise the digital PCM volume from the stock value of 817 to 837.
+- Lower the hardware amplifier gain from the stock value of 17 to 15.
 - Set the boost peak current limit to the stock value of 3.50A. Some custom ROMs opt to lower it to reduce the heat output, at the expense of your phone's volume potential.
 
 Using a newly integrated text menu engine, you may also choose from a variety of presets (PCM/AMP):
-- 865/14: The recommended volume by my testing
-- 865/13: The original volume from v1.0.0
+- 817/17: The Google stock volume, what you would get without this module
+- 837/15: Recommended by the creator of Hifi Maximizer on a Pixel 7 Pro
 - 865/12: Recommended by a Pixel 7 Pro (cheetah) user
-- 837/15: Recommended by the creator of HiFi Maximizer on a Pixel 7 Pro
-- 817/17: The Google stock volume
-- 913/15: Potentially unsafe! Triggers volume normalization when the volume spikes
-- 913/20: Potentially even more unsafe than 913/15! The absolute maximum that can be set
+- 865/13: The recommended volume from v1.0.0
+- 865/14: The recommended volume from v2.0.5
+- 913/15: Unsafe! Triggers volume normalization when the volume spikes
+- 913/20: Unsafe, moreso than 913/15! The absolute maximum that can be set
 
 More presets may be added in future updates, also depending on community feedback.
 
@@ -42,7 +42,7 @@ I've been trialing various increased values for months now using my Pixel 6 Pro,
 
 ## How does this affect the audio quality?
 
-The final result with selecting 865/14 is that we have minimized the compression of the PCM audio being sent to our speakers, allowing a wider range of detail. The noise floor has been lowered and the noise ceiling has been raised. You should be able to audibly comprehend better instrument separation, more depth to the notes being played in each instrument (including vocals, or voices and environmental sounds in videos), clarity across the audio spectrum, and a more pronounced bass. And due to the nature of raising the software volume, everything sounds just a little louder than before. This is before even considering something like tuning your EQ settings with an app like Wavelet, which should finally give you some more control over the sound of your audio due to the perceivable lack of detail compression.
+The final result with selecting anything higher than the Google stock configuration of 817/17 is that we have minimized the compression of the PCM audio being sent to our speakers, allowing a wider range of detail. The noise floor has been lowered and the noise ceiling has been raised. You should be able to audibly comprehend better instrument separation, more depth to the notes being played in each instrument (including vocals, or voices and environmental sounds in videos), clarity across the audio spectrum, and a more pronounced bass. And due to the nature of raising the software volume, everything sounds just a little louder than before. This is before even considering something like tuning your EQ settings with an app like Wavelet, which should finally give you some more control over the sound of your audio due to the perceivable lack of detail compression.
 
 ## How did you determine these values?
 

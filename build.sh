@@ -12,7 +12,7 @@ popd () {
 }
 
 echo "* Configuring the build environment"
-export VER="v2.0.5"
+export VER="v2.1.0"
 export ZIP="pixel-tensor-audio-decompressor-$VER.zip"
 export GOOS=linux
 export GOARCH=arm64
