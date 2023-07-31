@@ -44,7 +44,7 @@
                 {
                     "text": "837/15",
                     "desc": "Hifi Maximizer best results",
-                    "type": "setvar PCM 865 AMP 12",
+                    "type": "setvar PCM 837 AMP 15",
                     "action": "menu choice"
                 },
                 {
