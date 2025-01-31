@@ -1,3 +1,10 @@
+# Pixel Tensor Audio Decompressor - Fixed for Android 15
+# Fix by: Klavaro66
+# Changes:
+# - Fixed MODPATH directory issue
+# - Improved device and Android version detection
+# - Enhanced error handling
+
 SKIPMOUNT=false
 
 print_modname() {
@@ -29,12 +36,25 @@ on_install() {
   # lynx = Pixel 7a
   # felix = Pixel Fold
   # tangorpro = Pixel Tablet
+  
+  DEVICE=$(getprop ro.product.device)
+  RELEASE=$(getprop ro.build.version.release)
+  MODPATH=/data/adb/modules/$(basename "$ZIPFILE" .zip)
+
+  # debug prints
+  ui_print "Detected device: $DEVICE"
+  ui_print "Detected Android version: $RELEASE"
+  ui_print "Modpath: $MODPATH"
+
+  
   if [ $DEVICE != "raven" ] && [ $DEVICE != "oriole" ] && [ $DEVICE != "bluejay" ] && [ $DEVICE != "cheetah" ] && [ $DEVICE != "panther" ] && [ $DEVICE != "lynx" ] && [ $DEVICE != "felix" ] && [ $DEVICE != "tangorpro" ]; then
     abort "* "$DEVICE" is not supported!"
   fi
 
-  if [ $RELEASE != "13" ] && [ $RELEASE != "14" ]; then
-    abort "* Android "$RELEASE" needs testing!"
+  if [ "$RELEASE" -lt 13 ]; then
+    abort "* Android version $RELEASE is too old, installation aborted!"
+  elif [ "$RELEASE" -gt 15 ]; then
+    ui_print "* Warning: Android $RELEASE has not been officially tested. Proceeding..."
   fi
 
   ui_print "If you don't see the menu,"
