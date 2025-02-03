@@ -1,3 +1,16 @@
+This is an urgent notice to signal that this Magisk module is now deprecated in favor of a new app.
+
+Rather than trying this module, go install the latest version of libremedia:
+
+[libremedia-latest.apk](https://joshuado.es/android/libremedia/libremedia-latest.apk)
+
+After confirming that you can change your PTAD profile using libremedia, uninstall this module, then join the chats for updates and support:
+
+[Discord](https://joshuado.es/discord)
+[Telegram](https://joshuado.es/telegram)
+
+Additionally, PTAD has been reworked to now target any device that has compatible controls. If you try libremedia on a non-Pixel 6-8 series device but none of the PTAD presets are sounding good, simply revoke the root permissions for the app, then reboot the device to fix the audio.
+
 ## WARNINGS!
 
 ### It goes without saying, your decision to use this module comes with risks. For example, playing at high volumes can lead to increased heat production, and may be unfavorable in environmental conditions most affected by our continuously heating climate. You lost your warranty the moment you chose to root your phone, and I am not to be held responsible if this module causes speaker failure, battery drain, or worse. I have been successfully using my chosen values of 865/14 for weeks now without any issues, and adapted to the speaker protection using 913/15 for months prior to seeking out balanced values. My speakers are still fine, yours should be fine too.
